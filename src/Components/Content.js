@@ -46,14 +46,19 @@ class Content extends React.Component{
                  {/* <input type="Submit" value="Submit" /> */}
                  <br/>
                  <br/>
-                 <label>
-                    Gender
-                    <br/><input style={{marginTop:'10px'}} type="text"/>
+                 <label for= "toggle" class= "switch">
+                     <br/>
+                    Gender [Male/Female]
+                    <br/><input type="checkbox" id="toggle" class="checkbox"/>
                  </label>
-                 <label>
+                 <br/>
+                 <br/>
+                 <label for= "toggle" class= "switch">
+                     <br/>
                    Spayed or Neutered
-                   <br/><input style={{marginTop:'10px'}} type="text"/>
+                   <br/><input type="checkbox" id="toggle" class="checkbox"/>
                  </label>
+                 <br/>
                  <label>
                   Weight   
                  </label>
