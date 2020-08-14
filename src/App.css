@@ -78,25 +78,60 @@ body{
 .switch{
   margin-top: 10px;
   padding: 5px;
-  width: 60px;
+  width: 200px;
   height: 30px;
   position: relative;
   display: inline-block;
   background-color:#eee;
-  border-radius:20px;
+  border-radius:10px;
+  text-align: center;
 }
 
 .switch::after{
 
-  content: '';
+  content: 'Male';
   position: absolute;
-  width: 28px;
+  width: 55px;
   height: 28px;
   background-color: grey;
   border-radius: 50%;
   top: 1px;
   left: 2px;
   transition: all 0.4s;
+}
+
+.switch::before{
+  content: 'Female';
+  text-transform: uppercase;
+}
+.switch2{
+  margin-top: 10px;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  position: relative;
+  display: inline-block;
+  background-color:#eee;
+  border-radius:10px;
+  text-align: center;
+}
+
+.switch2::after{
+
+  content: 'Spayed';
+  position: absolute;
+  width: 55px;
+  height: 28px;
+  background-color: grey;
+  border-radius: 50%;
+  top: 1px;
+  left: 2px;
+  transition: all 0.4s;
+}
+
+.switch2::before{
+  content: 'Neutered';
+  text-transform: uppercase;
 }
 .checkbox:checked + .switch::after {
   left : 20px; 
@@ -109,6 +144,7 @@ body{
 }
 .checkbox { 
   display : none;
+  text-align: right;
 }
 
 .nav{
@@ -118,7 +154,14 @@ body{
 
 .button1{
   align-content: flex-end;
-  margin-top: 80%;
+  margin-top: 10%;
+  margin-left: 30%;
+  border: solid grey;
+  border-radius: 30%;
+}
+
+.dog{
+  margin-left: 40pt;
 }
 /* Reference: https://www.w3schools.com/css/css3_box-sizing.asp */
 /* https://codepen.io/pen/?&editable=true */

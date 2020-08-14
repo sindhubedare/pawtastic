@@ -48,15 +48,14 @@ class Content extends React.Component{
                  <br/>
                  <label for= "toggle" class= "switch">
                      <br/>
-                    Gender [Male/Female]
-                    <br/><input type="checkbox" id="toggle" class="checkbox"/>
+                    Gender
+                    <input type="checkbox" id="toggle" class="checkbox"/>
                  </label>
                  <br/>
               
-                 <label for= "toggle" class= "switch">
+                 <label for= "toggle" class= "switch2">
                      <br/>
-                   Spayed or Neutered
-                   <br/><input type="checkbox" id="toggle" class="checkbox"/>
+                   Spayed or Neutered <input type="checkbox" id="toggle" class="checkbox"/>
                  </label>
                  <br/>
                  <label>
