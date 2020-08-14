@@ -44,7 +44,7 @@ body{
   background-color: #545871;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
- 
+  Color: whitesmoke;
 }
 .div2 {
   grid-area: b;
@@ -109,6 +109,16 @@ body{
 }
 .checkbox { 
   display : none;
+}
+
+.nav{
+  flex-direction: column;
+  padding: 20pt;
+}
+
+.button1{
+  align-content: flex-end;
+  margin-top: 80%;
 }
 /* Reference: https://www.w3schools.com/css/css3_box-sizing.asp */
 /* https://codepen.io/pen/?&editable=true */

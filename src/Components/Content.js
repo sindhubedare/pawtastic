@@ -40,11 +40,11 @@ class Content extends React.Component{
               
                  <label style={{marginLeft:'20px'}} >
                      Birthday:
-                     <input type="text" placeholder="MM/DD/Y"Y value={this.state.value} onChange={this.handleChange}/>
+                     <input type="text" placeholder="MM/DD/YY" value={this.state.value} onChange={this.handleChange}/>
                  </label>  
                  {/* &nbsp; */}
                  {/* <input type="Submit" value="Submit" /> */}
-                 <br/>
+
                  <br/>
                  <label for= "toggle" class= "switch">
                      <br/>
@@ -52,7 +52,7 @@ class Content extends React.Component{
                     <br/><input type="checkbox" id="toggle" class="checkbox"/>
                  </label>
                  <br/>
-                 <br/>
+              
                  <label for= "toggle" class= "switch">
                      <br/>
                    Spayed or Neutered
@@ -60,7 +60,9 @@ class Content extends React.Component{
                  </label>
                  <br/>
                  <label>
+                     <br/>
                   Weight   
+                  <input type="text" placeholder="Lbs" value={this.state.value} onChange={this.handleChange}/>
                  </label>
             </form>
            

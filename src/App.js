@@ -4,15 +4,28 @@ import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import Content from './Components/Content';
-function App() {
+
+
+class App extends React.Component {
+  render(){
   return (
-    <div className="App">
-      <Navbar />
-      <Header />
-      <Content />
-      <Footer />
+    <React.Fragment>
+    <div className="wrapper">
+      <div className="App">
+        <div className="div1">
+          <Navbar />
+        </div>
+        <div className="div2">
+          <Header />
+          <Content />
+        </div>
+        <div className="div3" >
+          <Footer />
+        </div>
+      </div>
     </div>
+    </React.Fragment>
   );
 }
-
+}
 export default App;
