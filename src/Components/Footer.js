@@ -1,6 +1,6 @@
 import React from 'react';
 function Footer (){
-    render (
+    return (
         <div className= "title">
             <button id="backbutton">Back</button>
             <button id="nextbutton">Next</button>
